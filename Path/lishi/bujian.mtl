@@ -1,0 +1,44 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# 创建的文件:26.12.2017 22:32:44
+
+newmtl JCwoshi_daoguiX
+	Ns 35.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3150 0.3150 0.3150
+	Ke 0.0000 0.0000 0.0000
+	map_Ka JCwoshi_daoguiX.jpg
+	map_Kd JCwoshi_daoguiX.jpg
+
+newmtl JCwoshi_daoguiZ
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3600 0.3600 0.3600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka JCwoshi_daoguiZ.jpg
+	map_Kd JCwoshi_daoguiZ.jpg
+
+newmtl JCwoshi_zhicheng
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka JCwoshi_zhicheng.jpg
+	map_Kd JCwoshi_zhicheng.jpg

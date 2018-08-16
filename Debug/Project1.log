@@ -1,0 +1,119 @@
+﻿  ClientMain.cpp
+d:\opengl lianxi\projectclient\project1\mywindow.h(335): warning C4551: 缺少参数列表的函数调用
+d:\opengl lianxi\projectclient\project1\include\cppkafka\topic_partition.h(135): warning C4251: “cppkafka::TopicPartition::topic_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cppkafka::TopicPartition”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\exceptions.h(44): warning C4275: 非 dll 接口 class“std::exception”用作 dll 接口 class“cppkafka::Exception”的基
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\vcruntime_exception.h(45): note: 参见“std::exception”的声明
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\exceptions.h(44): note: 参见“cppkafka::Exception”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\exceptions.h(50): warning C4251: “cppkafka::Exception::message_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cppkafka::Exception”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration_option.h(79): warning C4251: “cppkafka::ConfigurationOption::key_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cppkafka::ConfigurationOption”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration_option.h(80): warning C4251: “cppkafka::ConfigurationOption::value_”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“cppkafka::ConfigurationOption”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\xstring(4347): note: 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\topic_configuration.h(142): warning C4251: “cppkafka::TopicConfiguration::handle_”: class“cppkafka::ClonablePtr<rd_kafka_topic_conf_t,void (__cdecl *)(rd_kafka_topic_conf_t *),rd_kafka_topic_conf_t *(__cdecl *)(const rd_kafka_topic_conf_t *)>”需要有 dll 接口由 class“cppkafka::TopicConfiguration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\topic_configuration.h(135): note: 参见“cppkafka::ClonablePtr<rd_kafka_topic_conf_t,void (__cdecl *)(rd_kafka_topic_conf_t *),rd_kafka_topic_conf_t *(__cdecl *)(const rd_kafka_topic_conf_t *)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\topic_configuration.h(143): warning C4251: “cppkafka::TopicConfiguration::partitioner_callback_”: class“std::function<int32_t (const cppkafka::Topic &,const cppkafka::Buffer &,int32_t)>”需要有 dll 接口由 class“cppkafka::TopicConfiguration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\topic_configuration.h(64): note: 参见“std::function<int32_t (const cppkafka::Topic &,const cppkafka::Buffer &,int32_t)>”的声明
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(220): warning C4251: “cppkafka::Configuration::handle_”: class“cppkafka::ClonablePtr<rd_kafka_conf_t,void (__cdecl *)(rd_kafka_conf_t *),rd_kafka_conf_t *(__cdecl *)(const rd_kafka_conf_t *)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(214): note: 参见“cppkafka::ClonablePtr<rd_kafka_conf_t,void (__cdecl *)(rd_kafka_conf_t *),rd_kafka_conf_t *(__cdecl *)(const rd_kafka_conf_t *)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(221): warning C4251: “cppkafka::Configuration::default_topic_config_”: class“boost::optional<cppkafka::TopicConfiguration>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(207): note: 参见“boost::optional<cppkafka::TopicConfiguration>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(222): warning C4251: “cppkafka::Configuration::delivery_report_callback_”: class“std::function<void (cppkafka::Producer &,const cppkafka::Message &)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(64): note: 参见“std::function<void (cppkafka::Producer &,const cppkafka::Message &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(223): warning C4251: “cppkafka::Configuration::offset_commit_callback_”: class“std::function<void (cppkafka::Consumer &,cppkafka::Error,const cppkafka::TopicPartitionList &)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(65): note: 参见“std::function<void (cppkafka::Consumer &,cppkafka::Error,const cppkafka::TopicPartitionList &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(224): warning C4251: “cppkafka::Configuration::error_callback_”: class“std::function<void (cppkafka::KafkaHandleBase &,int,const std::string &)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(67): note: 参见“std::function<void (cppkafka::KafkaHandleBase &,int,const std::string &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(225): warning C4251: “cppkafka::Configuration::throttle_callback_”: class“std::function<void (cppkafka::KafkaHandleBase &,const std::string &,int32_t,std::chrono::milliseconds)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(69): note: 参见“std::function<void (cppkafka::KafkaHandleBase &,const std::string &,int32_t,std::chrono::milliseconds)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(226): warning C4251: “cppkafka::Configuration::log_callback_”: class“std::function<void (cppkafka::KafkaHandleBase &,int,const std::string &,const std::string &)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(73): note: 参见“std::function<void (cppkafka::KafkaHandleBase &,int,const std::string &,const std::string &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(227): warning C4251: “cppkafka::Configuration::stats_callback_”: class“std::function<void (cppkafka::KafkaHandleBase &,const std::string &)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(76): note: 参见“std::function<void (cppkafka::KafkaHandleBase &,const std::string &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(228): warning C4251: “cppkafka::Configuration::socket_callback_”: class“std::function<int (int,int,int)>”需要有 dll 接口由 class“cppkafka::Configuration”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\configuration.h(77): note: 参见“std::function<int (int,int,int)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(210): warning C4251: “cppkafka::KafkaHandleBase::DEFAULT_TIMEOUT”: class“std::chrono::duration<__int64,std::milli>”需要有 dll 接口由 class“cppkafka::KafkaHandleBase”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\chrono(598): note: 参见“std::chrono::duration<__int64,std::milli>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(220): warning C4251: “cppkafka::KafkaHandleBase::handle_”: class“std::unique_ptr<rd_kafka_t,void (__cdecl *)(rd_kafka_t *)>”需要有 dll 接口由 class“cppkafka::KafkaHandleBase”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(212): note: 参见“std::unique_ptr<rd_kafka_t,void (__cdecl *)(rd_kafka_t *)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(221): warning C4251: “cppkafka::KafkaHandleBase::timeout_ms_”: class“std::chrono::duration<__int64,std::milli>”需要有 dll 接口由 class“cppkafka::KafkaHandleBase”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\chrono(598): note: 参见“std::chrono::duration<__int64,std::milli>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(223): warning C4251: “cppkafka::KafkaHandleBase::topic_configurations_”: class“std::unordered_map<std::string,cppkafka::TopicConfiguration,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”需要有 dll 接口由 class“cppkafka::KafkaHandleBase”的客户端使用
+          with
+          [
+              _Kty=std::string,
+              _Ty=cppkafka::TopicConfiguration
+          ]
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(213): note: 参见“std::unordered_map<std::string,cppkafka::TopicConfiguration,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>”的声明
+          with
+          [
+              _Kty=std::string,
+              _Ty=cppkafka::TopicConfiguration
+          ]
+d:\opengl lianxi\projectclient\project1\include\cppkafka\kafka_handle_base.h(224): warning C4251: “cppkafka::KafkaHandleBase::topic_configurations_mutex_”: class“std::mutex”需要有 dll 接口由 class“cppkafka::KafkaHandleBase”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\mutex(83): note: 参见“std::mutex”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\topic.h(97): warning C4251: “cppkafka::Topic::handle_”: class“std::unique_ptr<rd_kafka_topic_t,void (__cdecl *)(rd_kafka_topic_t *)>”需要有 dll 接口由 class“cppkafka::Topic”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\topic.h(91): note: 参见“std::unique_ptr<rd_kafka_topic_t,void (__cdecl *)(rd_kafka_topic_t *)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\message.h(169): warning C4251: “cppkafka::Message::handle_”: class“std::unique_ptr<rd_kafka_message_t,void (__cdecl *)(rd_kafka_message_t *)>”需要有 dll 接口由 class“cppkafka::Message”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\message.h(162): note: 参见“std::unique_ptr<rd_kafka_message_t,void (__cdecl *)(rd_kafka_message_t *)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\message.h(202): warning C4251: “cppkafka::MessageTimestamp::timestamp_”: class“std::chrono::duration<__int64,std::milli>”需要有 dll 接口由 class“cppkafka::MessageTimestamp”的客户端使用
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.14.26428\include\chrono(598): note: 参见“std::chrono::duration<__int64,std::milli>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(355): warning C4251: “cppkafka::Consumer::assignment_callback_”: class“std::function<void (cppkafka::TopicPartitionList &)>”需要有 dll 接口由 class“cppkafka::Consumer”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(100): note: 参见“std::function<void (cppkafka::TopicPartitionList &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(356): warning C4251: “cppkafka::Consumer::revocation_callback_”: class“std::function<void (const cppkafka::TopicPartitionList &)>”需要有 dll 接口由 class“cppkafka::Consumer”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(101): note: 参见“std::function<void (const cppkafka::TopicPartitionList &)>”的声明
+d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(357): warning C4251: “cppkafka::Consumer::rebalance_error_callback_”: class“std::function<void (cppkafka::Error)>”需要有 dll 接口由 class“cppkafka::Consumer”的客户端使用
+  d:\opengl lianxi\projectclient\project1\include\cppkafka\consumer.h(102): note: 参见“std::function<void (cppkafka::Error)>”的声明
+d:\opengl lianxi\projectclient\project1\clientmain.cpp(101): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\opengl lianxi\projectclient\project1\clientmain.cpp(292): warning C4244: “初始化”: 从“double”转换到“GLfloat”，可能丢失数据
+d:\opengl lianxi\projectclient\project1\clientmain.cpp(342): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+d:\opengl lianxi\projectclient\project1\clientmain.cpp(459): warning C4244: “参数”: 从“double”转换到“GLfloat”，可能丢失数据
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewActiveTexture
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBlendEquation
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBlendFuncSeparate
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBindBuffer
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBufferData
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewDeleteBuffers
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewGenBuffers
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewAttachShader
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBlendEquationSeparate
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewCompileShader
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewCreateProgram
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewCreateShader
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewDeleteProgram
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewDeleteShader
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewDetachShader
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewEnableVertexAttribArray
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewGetAttribLocation
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewGetUniformLocation
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewLinkProgram
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewShaderSource
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewUniform1i
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewUniformMatrix4fv
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewUseProgram
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewVertexAttribPointer
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBindSampler
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewBindVertexArray
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewDeleteVertexArrays
+imgui_impl_glfw_gl3.obj : warning LNK4049: 已导入本地定义的符号 ___glewGenVertexArrays
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(context.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(init.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(input.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(window.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_tls.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_tls.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“SOIL.lib(image_DXT.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“SOIL.lib(image_helper.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“SOIL.lib(SOIL.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“SOIL.lib(stb_image_aug.obj)”或在“D:\OpenGL lianxi\ProjectClient\Debug\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  Project1.vcxproj -> D:\OpenGL lianxi\ProjectClient\Debug\Project1.exe
